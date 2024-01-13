@@ -1,6 +1,6 @@
 name: mt32-pi CI
 
-on: [push, pull_request]
+on: [push, pull_request, workflow_dispatch]
 
 env:
   toolchain-version: 11.3.rel1
